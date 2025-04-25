@@ -1,4 +1,6 @@
 # Proyecto Web de Pedro Pérez
+[Mi página Web](https://topxi.netlify.app)
+[Mi canal RSS](file:///C:/Users/pedro/Desktop/PAGINA%20WEB/feed.xml)
 
 Este proyecto es una página web desarrollada por Pedro Pérez, la cual incluye varios recursos multimedia y estilos personalizados.
 
