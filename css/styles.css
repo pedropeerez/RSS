@@ -1,0 +1,221 @@
+body { 
+    background-image: url(../jpg/cesped\ futbol.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+.contenedor main {
+    flex-grow: 1;
+}
+
+@font-face {
+    font-family:'Doto';
+    src: url(../Fuentes/Doto/Doto-VariableFont_ROND\,wght.ttf);
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family:'Funnel';
+    src: url(../Fuentes/Funnel_Display/FunnelDisplay-VariableFont_wght.ttf);
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family:'Edu';
+    src: url(../Fuentes/Edu_AU_VIC_WA_NT_Pre/EduAUVICWANTPre-VariableFont_wght.ttf);
+    font-style: bold;
+    font-weight: bold;
+}
+
+
+
+h1{
+    text-align: center;
+    padding:0;
+    margin: 0;
+    font-size: 60px;
+    font-family:'Funnel';
+    font-weight: bold;
+    color:red;
+}
+
+.titulotabla{
+    text-align: center;
+    padding:0;
+    margin: 0;
+    font-size: 60px;
+    font-family:'Funnel';
+    font-weight: bold;
+    color:red;
+}
+
+
+.Texto{
+    text-align: left;
+    font-size: 10px;
+    font-family:'Lato';
+    font-weight: bold;
+    color:red;
+    text-shadow: 
+                -1px -1px 0 black,  
+                1px -1px 0 black,
+                -1px 1px 0 black,
+                1px 1px 0 black;
+    
+}
+
+.logoXI{
+position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+    float:right;
+
+}
+
+.menu{
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+}
+.menu a{
+color:aliceblue;
+list-style: none;
+text-decoration: none;
+padding: 10px 60px;
+}
+
+.menu a:hover{
+background-color:dimgrey;
+}
+
+#minititulos{
+
+    text-align: left;
+    font-size: 18px;
+    font-family:'Funnel';
+    font-weight: bold;
+    color:red;
+    text-shadow: 
+                -1px -1px 0 black,  
+                1px -1px 0 black,
+                -1px 1px 0 black,
+                1px 1px 0 black;
+
+}
+
+#tabla {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin:20px auto;
+}
+
+.controles {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.controles:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.btn-submit {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer{
+    font-style:italic;
+    font-size: 8px;
+    font-family:'Edu';
+    font-weight: bold;
+    color:greenyellow;
+    text-shadow: 
+                0px 0px 5px black,
+                0px 0px 10px black,
+                0px 0px 15px black,
+}
