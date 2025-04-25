@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Classic XI</title>
+    <link>https://topxi.netlify.app/</link>
+    <description>Classic XI es una página web pensada para jugadores de EAFC25, para los que buscan mejorar en el juego, saber sus últimas novedades, jugadores, equipos, etc.</description>
+
+    <item>
+      <title>Registrarse</title>
+      <link>https://topxi.netlify.app/html/registrarse</link>
+      <description>Rellena un formulario para registrarte</description>
+    </item>
+    <item>
+      <title>Jugadores</title>
+      <link>https://topxi.netlify.app/html/jugadores</link>
+      <description>Mejores jugadores de oro del juego</description>
+    </item>
+    <item>
+      <title>Tutoriales</title>
+      <link>https://topxi.netlify.app/html/tutoriales</link>
+      <description>Videos tutoriales de cómo mejorar en el juego</description>
+    </item>
+    <item>
+      <title>Equipos</title>
+      <link>https://topxi.netlify.app/html/equipos</link>
+      <description>Lista de los mejores equipos del juego</description>
+    </item>
+    <item>
+      <title>Evolutions</title>
+      <link>https://topxi.netlify.app/html/evolutions</link>
+      <description>Lista de las evoluciones del juego</description>
+    </item>
+    <item>
+      <title>Gifs</title>
+      <link>https://topxi.netlify.app/html/gifs</link>
+      <description>Lista de gifs</description>
+    </item>
+  </channel>
+</rss>
